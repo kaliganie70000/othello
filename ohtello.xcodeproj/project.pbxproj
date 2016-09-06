@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F23F75D1B2B07B800851F6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23F75C1B2B07B800851F6A /* AppDelegate.swift */; };
+		3F23F7601B2B07B800851F6A /* ohtello.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F23F75E1B2B07B800851F6A /* ohtello.xcdatamodeld */; };
+		3F23F7621B2B07B800851F6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23F7611B2B07B800851F6A /* ViewController.swift */; };
+		3F23F7651B2B07B800851F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F23F7631B2B07B800851F6A /* Main.storyboard */; };
+		3F23F7671B2B07B800851F6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F23F7661B2B07B800851F6A /* Images.xcassets */; };
+		3F23F76A1B2B07B800851F6A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F23F7681B2B07B800851F6A /* LaunchScreen.xib */; };
+		3F23F7761B2B07B800851F6A /* ohtelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23F7751B2B07B800851F6A /* ohtelloTests.swift */; };
+		3F23F7CC1B2C8E3800851F6A /* fond.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F23F7C91B2C8E3800851F6A /* fond.png */; };
+		3F23F7CD1B2C8E3800851F6A /* pionBlanc.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F23F7CA1B2C8E3800851F6A /* pionBlanc.png */; };
+		3F23F7CE1B2C8E3800851F6A /* pionNoir.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F23F7CB1B2C8E3800851F6A /* pionNoir.png */; };
+		3F23F7D01B2CA0BB00851F6A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23F7CF1B2CA0BB00851F6A /* Player.swift */; };
+		3F23F7D21B2DBC8B00851F6A /* Arbitre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23F7D11B2DBC8A00851F6A /* Arbitre.swift */; };
+		3F23F7D41B2DBFC800851F6A /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23F7D31B2DBFC800851F6A /* Global.swift */; };
+		3F23F7D61B2F0E1800851F6A /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23F7D51B2F0E1800851F6A /* MenuController.swift */; };
+		3F23F7D91B2F550700851F6A /* middleToWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F23F7D71B2F550700851F6A /* middleToWhite.png */; };
+		3F23F7DA1B2F550700851F6A /* middleToBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F23F7D81B2F550700851F6A /* middleToBlack.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F23F7701B2B07B800851F6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F23F74F1B2B07B800851F6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F23F7561B2B07B800851F6A;
+			remoteInfo = ohtello;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F23F7571B2B07B800851F6A /* ohtello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ohtello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F23F75B1B2B07B800851F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F23F75C1B2B07B800851F6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F23F75F1B2B07B800851F6A /* ohtello.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ohtello.xcdatamodel; sourceTree = "<group>"; };
+		3F23F7611B2B07B800851F6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F23F7641B2B07B800851F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F23F7661B2B07B800851F6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F23F7691B2B07B800851F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3F23F76F1B2B07B800851F6A /* ohtelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ohtelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F23F7741B2B07B800851F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F23F7751B2B07B800851F6A /* ohtelloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ohtelloTests.swift; sourceTree = "<group>"; };
+		3F23F7C91B2C8E3800851F6A /* fond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fond.png; sourceTree = "<group>"; };
+		3F23F7CA1B2C8E3800851F6A /* pionBlanc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pionBlanc.png; sourceTree = "<group>"; };
+		3F23F7CB1B2C8E3800851F6A /* pionNoir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pionNoir.png; sourceTree = "<group>"; };
+		3F23F7CF1B2CA0BB00851F6A /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		3F23F7D11B2DBC8A00851F6A /* Arbitre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arbitre.swift; sourceTree = "<group>"; };
+		3F23F7D31B2DBFC800851F6A /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		3F23F7D51B2F0E1800851F6A /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		3F23F7D71B2F550700851F6A /* middleToWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = middleToWhite.png; sourceTree = "<group>"; };
+		3F23F7D81B2F550700851F6A /* middleToBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = middleToBlack.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F23F7541B2B07B800851F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F23F76C1B2B07B800851F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F23F74E1B2B07B800851F6A = {
+			isa = PBXGroup;
+			children = (
+				3F23F7591B2B07B800851F6A /* ohtello */,
+				3F23F7721B2B07B800851F6A /* ohtelloTests */,
+				3F23F7581B2B07B800851F6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F23F7581B2B07B800851F6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F23F7571B2B07B800851F6A /* ohtello.app */,
+				3F23F76F1B2B07B800851F6A /* ohtelloTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F23F7591B2B07B800851F6A /* ohtello */ = {
+			isa = PBXGroup;
+			children = (
+				3F23F77F1B2B07EF00851F6A /* img */,
+				3F23F75C1B2B07B800851F6A /* AppDelegate.swift */,
+				3F23F7611B2B07B800851F6A /* ViewController.swift */,
+				3F23F7631B2B07B800851F6A /* Main.storyboard */,
+				3F23F7661B2B07B800851F6A /* Images.xcassets */,
+				3F23F7681B2B07B800851F6A /* LaunchScreen.xib */,
+				3F23F75E1B2B07B800851F6A /* ohtello.xcdatamodeld */,
+				3F23F75A1B2B07B800851F6A /* Supporting Files */,
+				3F23F7CF1B2CA0BB00851F6A /* Player.swift */,
+				3F23F7D11B2DBC8A00851F6A /* Arbitre.swift */,
+				3F23F7D31B2DBFC800851F6A /* Global.swift */,
+				3F23F7D51B2F0E1800851F6A /* MenuController.swift */,
+			);
+			path = ohtello;
+			sourceTree = "<group>";
+		};
+		3F23F75A1B2B07B800851F6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F23F75B1B2B07B800851F6A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F23F7721B2B07B800851F6A /* ohtelloTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F23F7751B2B07B800851F6A /* ohtelloTests.swift */,
+				3F23F7731B2B07B800851F6A /* Supporting Files */,
+			);
+			path = ohtelloTests;
+			sourceTree = "<group>";
+		};
+		3F23F7731B2B07B800851F6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F23F7741B2B07B800851F6A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F23F77F1B2B07EF00851F6A /* img */ = {
+			isa = PBXGroup;
+			children = (
+				3F23F7C91B2C8E3800851F6A /* fond.png */,
+				3F23F7CA1B2C8E3800851F6A /* pionBlanc.png */,
+				3F23F7CB1B2C8E3800851F6A /* pionNoir.png */,
+				3F23F7D71B2F550700851F6A /* middleToWhite.png */,
+				3F23F7D81B2F550700851F6A /* middleToBlack.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F23F7561B2B07B800851F6A /* ohtello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F23F7791B2B07B800851F6A /* Build configuration list for PBXNativeTarget "ohtello" */;
+			buildPhases = (
+				3F23F7531B2B07B800851F6A /* Sources */,
+				3F23F7541B2B07B800851F6A /* Frameworks */,
+				3F23F7551B2B07B800851F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ohtello;
+			productName = ohtello;
+			productReference = 3F23F7571B2B07B800851F6A /* ohtello.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F23F76E1B2B07B800851F6A /* ohtelloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F23F77C1B2B07B800851F6A /* Build configuration list for PBXNativeTarget "ohtelloTests" */;
+			buildPhases = (
+				3F23F76B1B2B07B800851F6A /* Sources */,
+				3F23F76C1B2B07B800851F6A /* Frameworks */,
+				3F23F76D1B2B07B800851F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F23F7711B2B07B800851F6A /* PBXTargetDependency */,
+			);
+			name = ohtelloTests;
+			productName = ohtelloTests;
+			productReference = 3F23F76F1B2B07B800851F6A /* ohtelloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F23F74F1B2B07B800851F6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Antoine roy";
+				TargetAttributes = {
+					3F23F7561B2B07B800851F6A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					3F23F76E1B2B07B800851F6A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 3F23F7561B2B07B800851F6A;
+					};
+				};
+			};
+			buildConfigurationList = 3F23F7521B2B07B800851F6A /* Build configuration list for PBXProject "ohtello" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F23F74E1B2B07B800851F6A;
+			productRefGroup = 3F23F7581B2B07B800851F6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F23F7561B2B07B800851F6A /* ohtello */,
+				3F23F76E1B2B07B800851F6A /* ohtelloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F23F7551B2B07B800851F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F23F7651B2B07B800851F6A /* Main.storyboard in Resources */,
+				3F23F7CE1B2C8E3800851F6A /* pionNoir.png in Resources */,
+				3F23F7D91B2F550700851F6A /* middleToWhite.png in Resources */,
+				3F23F76A1B2B07B800851F6A /* LaunchScreen.xib in Resources */,
+				3F23F7CC1B2C8E3800851F6A /* fond.png in Resources */,
+				3F23F7CD1B2C8E3800851F6A /* pionBlanc.png in Resources */,
+				3F23F7671B2B07B800851F6A /* Images.xcassets in Resources */,
+				3F23F7DA1B2F550700851F6A /* middleToBlack.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F23F76D1B2B07B800851F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F23F7531B2B07B800851F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F23F7D21B2DBC8B00851F6A /* Arbitre.swift in Sources */,
+				3F23F7D61B2F0E1800851F6A /* MenuController.swift in Sources */,
+				3F23F7D01B2CA0BB00851F6A /* Player.swift in Sources */,
+				3F23F7D41B2DBFC800851F6A /* Global.swift in Sources */,
+				3F23F7621B2B07B800851F6A /* ViewController.swift in Sources */,
+				3F23F75D1B2B07B800851F6A /* AppDelegate.swift in Sources */,
+				3F23F7601B2B07B800851F6A /* ohtello.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F23F76B1B2B07B800851F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F23F7761B2B07B800851F6A /* ohtelloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F23F7711B2B07B800851F6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F23F7561B2B07B800851F6A /* ohtello */;
+			targetProxy = 3F23F7701B2B07B800851F6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F23F7631B2B07B800851F6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F23F7641B2B07B800851F6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F23F7681B2B07B800851F6A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F23F7691B2B07B800851F6A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F23F7771B2B07B800851F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3F23F7781B2B07B800851F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F23F77A1B2B07B800851F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ohtello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F23F77B1B2B07B800851F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ohtello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F23F77D1B2B07B800851F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ohtelloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ohtello.app/ohtello";
+			};
+			name = Debug;
+		};
+		3F23F77E1B2B07B800851F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ohtelloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ohtello.app/ohtello";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F23F7521B2B07B800851F6A /* Build configuration list for PBXProject "ohtello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F23F7771B2B07B800851F6A /* Debug */,
+				3F23F7781B2B07B800851F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F23F7791B2B07B800851F6A /* Build configuration list for PBXNativeTarget "ohtello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F23F77A1B2B07B800851F6A /* Debug */,
+				3F23F77B1B2B07B800851F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F23F77C1B2B07B800851F6A /* Build configuration list for PBXNativeTarget "ohtelloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F23F77D1B2B07B800851F6A /* Debug */,
+				3F23F77E1B2B07B800851F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F23F75E1B2B07B800851F6A /* ohtello.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F23F75F1B2B07B800851F6A /* ohtello.xcdatamodel */,
+			);
+			currentVersion = 3F23F75F1B2B07B800851F6A /* ohtello.xcdatamodel */;
+			path = ohtello.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F23F74F1B2B07B800851F6A /* Project object */;
+}
